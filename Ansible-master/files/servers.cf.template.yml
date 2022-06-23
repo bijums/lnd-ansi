@@ -9,7 +9,7 @@ Parameters:
     Description: "SSH Key to asign to the EC2 instances"
     Type: "AWS::EC2::KeyPair::KeyName"
   InstanceType:
-    Default: "t3.medium"
+    Default: "t3.micro"
     Description: "The instance type to be used"
     Type: "String"
   EnvId:
