@@ -1,2 +1,2 @@
-# lnd-ansi
+# ansible-cloudformation
 ansible-cloudformation
