@@ -3,8 +3,7 @@
 hosting_infrastructure: aws
 
 # Define AWS region. Comment out the one you DO NOT wish to use with #
-aws_region: "us-east-1"
-#aws_region: "us-west-1"
+aws_region: "ap-northeast-1"
 
 # Define environment name
 env_id: "ansiblelab"
@@ -19,15 +18,11 @@ aws_image: ami-000db10762d0c4c05
 aws_key_name: "ansible"
 
 # Availability zone of resources
-aws_zone: "us-east-1a"
-#aws_zone: "us-east-1b"
-#aws_zone: "us-east-1c"
-
+aws_zone: "ap-northeast-1a"
 
 # Second AZ if multi-AZ is needed during cloudformation deployment
-#aws_zone2: "us-east-1a"
-aws_zone2: "us-east-1b"
-#aws_zone2: "us-east-1c"
+aws_zone2: "ap-northeast-1b"
+
 
 
 
