@@ -21,7 +21,7 @@ aws_key_name: "keypair"
 aws_zone: "ap-northeast-1a"
 
 # Second AZ if multi-AZ is needed during cloudformation deployment
-aws_zone2: "ap-northeast-1b"
+aws_zone2: "ap-northeast-1c"
 
 
 
