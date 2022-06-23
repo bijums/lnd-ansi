@@ -7,7 +7,7 @@
 stack_name: "myservers"
 
 # SSH Keypair for the instance
-aws_key_name: "ansiblekey"
+#aws_key_name: "ansiblekey"
 
 #Establish server hostname
 server_name: "server01.ansiblelab.com"
@@ -17,18 +17,18 @@ server_name2: "server02.ansiblelab.com"
 aws_instancetype: "t2.medium"
 
 #Establish  server subnets
-subnet: subnet-09aaee8f8f762ea0c
-subnet2: subnet-0f583c67f9cee3a1e
+subnet: subnet-100dc158
+subnet2: subnet-c410c7ef
 
 # Establish EBS Encryption key
-ebs_key: "ff01e1f8-edfa-44d6-b511-3fc07445765c"
+ebs_key: "3903bbc2-33f9-4e9e-92ba-d55d0c971444"
 
 
 # Establish private Route53 DNS zone
-private_hosted_zone: Z0426696BJSKNKQ4L8ET
+private_hosted_zone: Z07368552HYY9GT86LAYL
 
 # Establish VPC
-vpc_id: vpc-088f9f20331a59216
+vpc_id: vpc-9ba0a3fc
 
 #Disks to attach to instance
 disks:
