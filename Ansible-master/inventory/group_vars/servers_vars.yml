@@ -14,7 +14,7 @@ server_name: "server01.ansiblelab.com"
 server_name2: "server02.ansiblelab.com"
 
 #Type of AWS instance
-aws_instancetype: "t2.medium"
+aws_instancetype: "t2.micro"
 
 #Establish  server subnets
 subnet: subnet-100dc158
@@ -25,7 +25,7 @@ ebs_key: "8784d596-50f4-4e72-9c67-6b48c283607a"
 
 
 # Establish private Route53 DNS zone
-private_hosted_zone: Z07368552HYY9GT86LAYL
+private_hosted_zone: Z0867536MEIPWL9S15V8
 
 # Establish VPC
 vpc_id: vpc-9ba0a3fc
@@ -34,7 +34,7 @@ vpc_id: vpc-9ba0a3fc
 disks:
   - name: "root_volume"
     type: "gp2"
-    size: "100"
+    size: "8"
     device_name: "/dev/sda1"
 
 
